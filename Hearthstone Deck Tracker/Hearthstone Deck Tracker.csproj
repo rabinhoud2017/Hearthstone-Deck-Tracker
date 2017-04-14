@@ -169,6 +169,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Printing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
@@ -388,6 +389,8 @@
     <Compile Include="FlyoutControls\Warning.xaml.cs">
       <DependentUpon>Warning.xaml</DependentUpon>
     </Compile>
+    <Compile Include="HsReplay\HsReplayDecks.cs" />
+    <Compile Include="HsReplay\Utility\ShortIdHelper.cs" />
     <Compile Include="Importing\StringImporter.cs" />
     <Compile Include="Utility\RegistryHelper.cs" />
     <Compile Include="Hearthstone\Watchers.cs" />
@@ -1200,6 +1203,7 @@
     </Compile>
     <Compile Include="Utility\Updating\Updater.Squirrel.cs" />
     <Compile Include="Utility\Updating\Updater.Default.cs" />
+    <Resource Include="Resources\hsreplay_logo_blue.png" />
     <Resource Include="Resources\hsreplay_logo_white.png" />
     <EmbeddedResource Include="Resources\CHANGELOG.md" />
     <EmbeddedResource Include="Properties\Strings.ja-JP.resx">
